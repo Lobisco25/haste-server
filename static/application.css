@@ -1,5 +1,5 @@
 body {
-	background: #002B36;
+	background: #001420;
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -24,7 +24,7 @@ textarea {
 /* the line numbers */
 
 #linenos {
-  color: #7d7d7d;
+  color: #334753;
 	z-index: -1000;
 	position: absolute;
 	top: 20px;
@@ -51,6 +51,7 @@ textarea {
 #box code {
 	padding: 0px;
 	background: transparent !important; /* don't hide hastebox */
+	color: white;
 }
 
 /* key */
@@ -65,11 +66,11 @@ textarea {
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+	background: #000D15;
 }
 
 #box2 {
-	background: #08323c;
+	background: #001A2A;
 	font-size: 0px;
 	padding: 0px 5px;
 }

@@ -1,25 +1,25 @@
 {
 
-  "host": "0.0.0.0",
-  "port": 7777,
+  "host": "localhost",
+    "port": 7777,
 
-  "keyLength": 10,
+      "keyLength": 5,
 
-  "maxLength": 400000,
+        "maxLength": 400000,
 
-  "staticMaxAge": 86400,
+          "staticMaxAge": 9999999999999999999999999,
 
-  "recompressStaticAssets": true,
+            "recompressStaticAssets": true,
 
-  "logging": [
-    {
-      "level": "verbose",
-      "type": "Console",
-      "colorize": true
-    }
-  ],
+              "logging": [
+                {
+                  "level": "verbose",
+                  "type": "Console",
+                  "colorize": true
+                }
+              ],
 
-  "keyGenerator": {
+                "keyGenerator": {
     "type": "phonetic"
   },
 
@@ -27,7 +27,7 @@
     "categories": {
       "normal": {
         "totalRequests": 500,
-        "every": 60000
+          "every": 60000
       }
     }
   },
